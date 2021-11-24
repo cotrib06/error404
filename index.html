@@ -9,20 +9,28 @@
 	</head>
 
 	<style>
-		body {
-			background-color: violet;
-		}
-		span {
-			background-color: black;
-			color: lime;
-		}
+	
+	body {
+		margin: 7% auto 0;
+		width: 50%;
+		font: 15px/22px arial, sans-seif;
+	}
+
+	#bold {
+		font-weight: bold;
+	}
+
+	.gray {
+		color: #777;
+	}
+
 	</style>
 	
 	<body>
 		<a href="https://www.google.com/"><img src="googlelogo.png" alt="logo" title="logo"></a>
-		<p><span>404. That’s an error.</span></p>
-		<p><span>The requested URL <code>/sfasfsa</code> was not found on this server. That’s all we know.</span></p>
-		<img src="robot.png" alt="robot" title="robot">
+		<p><span id="bold">404.</span> <span class="gray">That’s an error.</span></p>
+		<p>The requested URL sfasfsa was not found on this server. <span class="gray">That’s all we know.</span></p>
+		<!-- <img src="robot.png" alt="robot" title="robot"> -->
 	</body>
 
 </html>
